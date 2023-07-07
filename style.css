@@ -1,0 +1,257 @@
+style.css @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+    {
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar {
+    position: absolute;
+    background-color: rgb(151, 141, 141);
+    width: 250px;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100%;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.slidebar nav {
+    padding: 33px;
+    padding-left: 8px;
+    padding-right: 18px;
+    padding-bottom: 100%;
+}
+
+.slidebar nav li {
+    list-style: none;
+    font-size: 29px;
+    padding: 28px;
+    padding-left: 18px;
+}
+
+.slidebar nav li a{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+} 
+
+.main1 {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    margin-left: 50px;
+}    
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer{
+    background-color: rgb(255, 255, 255);
+    height: 45vh;
+    width: 80vw;
+    margin: 70px auto;
+    display: flex;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;}
+
+    .hello{
+        font-size: 70px;
+    }
+
+    .name{
+        font-size: 65px;
+    }
+
+    .about{
+        font-size: 50px;
+    }
+
+    .button{
+        margin: 34px;
+    }
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(223, 151, 219);
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(223, 151, 219);
+}
+
+.devpic img{
+    width: 370px;
+    margin-left: 20px;
+}
+
+.imp-psych{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+button.btn2primary{
+    padding-top: 2;
+    color: white;
+    background-color: rgb(70, 63, 63);
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.CONTACTfom{ 
+    padding: 0 34PX;
+    font-family: sans-serif;
+    margin: 0 88PX;
+    padding-right: 0;
+}
+
+.contactfom h1{
+  font-family: monospace;
+  text-align: center;
+  padding: 0;
+}
+
+.contactfom div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactfom form div input{
+    
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+
+#emailHelp{
+    font-size: 14px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 0 0 3PX 0;
+}
+
+#isclient.form-check{
+  flex-direction: row;
+}
+
+#isclient.form-check-input{
+  width: 25px;
+  margin: 3px 0;   
+}
+
+.btn-primary{
+    width: 160px;
+}
+
+h1{
+    margin: 22px;
+    font-family: serif;
+}
+
+.blogiterm{
+    margin: 20px;
+    margin-right: 0;
+
+}
+
+.blogcontainer{
+    margin: 0 88px;
+}
+
+h2{
+    margin: 22px;
+}
+
+button.btn1primary{
+    padding-top: 2;
+    color: white;
+    background-color: rgb(70, 63, 63);
+    cursor: pointer;
+}
+
+button.btn1primary:hover{
+    background-color: white;
+    color: rgb(70, 63, 63);
+}
+
+.button{
+    margin: 0 0 0 0;
+}
+
+.intro{
+    margin: 0 88px;
+}
+
+.intro p{
+    margin: 25px;
+    margin-right: 0;
+}  
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 13px;
+    left: 13px;
+}
+
+.slidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute; 
+}
+
+.cross{
+    margin-left: 216px;
+    margin-top: 5px;
+}
+
+@media (max-width:1010px) {
+    *{
+        background-color:rgb(255, 255, 255);
+    }
+    .devpic{
+        display: flex;
+        flex-direction: bottom;
+    }
+    .slidebar{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        padding-bottom: 0;        
+    }
+}
+
+.intro, .blogcontainer, .contactfom{
+    margin: 50px 8px;
+}
+
+.off{
+    margin-left: 30px;
+}
+
+.ser ul{
+    margin-left: 15px;
+    margin-right: -50px;
+}
+
+.btn3primary{
+    margin-left: 25px;
+    color: rgb(224, 251, 255);
+    background-color: rgb(112, 181, 202);
+    cursor: pointer;
+}
